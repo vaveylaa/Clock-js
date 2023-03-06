@@ -14,28 +14,43 @@ The website is built using HTML, CSS, Bootstrap and JavaScript.
 
 ## Code Example
 
-// Kullanıcı adını al
-let name = prompt("Adınız nedir?");
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <title>Kodluyoruz Javascript Saat Ödevi</title>
+  </head>
+  <body class="bg-dark">
+    <div class="text-center" >
+        <img
+        src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+        alt=""
+        class="rounded"
+        />
 
-// Karşılama mesajını göster
-let greetingDiv = document.getElementById("greeting");
-greetingDiv.innerText = `Merhaba, ${name}!  Hoş geldin!`;
+        <div class="text1 text-center" id="greeting"></div>
+        <div class="clock" id="time"></div>
 
-// Saati göster
-let timeDiv = document.getElementById("time");
+        <div class="text2 text-center">
+            tarihinde
+            <strong>Kodluyoruz Frontend Web Development Patikası</strong>'nın
+            Javascript bölümü 1. Ödevindesiniz.
+        </div>
 
-function showTime() {
-    let now = new Date();
-    let hour = now.getHours();
-    let minute = now.getMinutes();
-    let second = now.getSeconds();
-    let day = now.toLocaleDateString('tr-TR', { weekday: 'long' });
-    let timeString = `${hour}:${minute}:${second} ${day}`;
-    timeDiv.innerText = timeString;
-}
+    </div>    
+    <script src="script.js"></script>
+  </body>
+</html> 
 
-// Her saniye saati güncelle
-setInterval(showTime, 1000);
 
 ## Supported Browsers
 
