@@ -27,7 +27,7 @@ The website is built using HTML, CSS, Bootstrap and JavaScript.
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <title>Kodluyoruz Javascript Saat Ödevi</title>
+
   </head>
   <body class="bg-dark">
     <div class="text-center" >
