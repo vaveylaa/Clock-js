@@ -1,6 +1,3 @@
-// let myName = prompt("Lütfen isminizi giriniz.")
-// let karsilama= document.querySelector("#karsilama")
-
 // Kullanıcı adını al
 let name = prompt("Adınız nedir?");
 
